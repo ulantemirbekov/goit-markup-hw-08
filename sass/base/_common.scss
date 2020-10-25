@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.address {
+	font-style: normal;
+}
+
+img {
+	display: block;
+	/* max-width: 100%;
+	height: auto; */
+}
+
+body {
+	background-color: $primary-white-color;
+	color: $primary-text-color;
+
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}

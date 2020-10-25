@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header portfolio-header">
+      <div class="container">
+        <nav class="navigation">
+          <a href="./" class="logo" aria-label="логотип компании">Web<span class="logo-text">Studio</span> </a>
+    
+          <!-- Navigation list -->
+          <ul class="navigation__list list">
+            <li class="navigation__list-item">
+              <a href="./" class="navigation__list-link link">Студия</a>
+            </li>
+            <li class="navigation__list-item">
+              <a href="./portfolio.html" class="navigation__list-link link current">Портфолио</a>
+            </li>
+            <li class="navigation__list-item">
+              <a href="./contacts" class="navigation__list-link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+    
+        <!-- Contacts list -->
+        <ul class="contacts__list list">
+          <li class="contacts__list-item">
+            <a href="mailto:info@devstudio.com" class="contacts__list-link link"> <svg class="contacts__list-svg_envelope">
+                <use href="./img/sprite.svg#icon-envelope"></use>
+              </svg> info@devstudio.com
+            </a>
+          </li>
+          <li class="contacts__list-item">
+            <a href="tel:+380961111111" class="contacts__list-link link">
+              <svg class="contacts__list-svg_phone">
+                <use href="./img/sprite.svg#icon-smartphone"></use>
+              </svg>+38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Уникальный контент страницы -->
+    <main>
+      <!-- Portfolio -->
+      <section class="portfolio">
+        <div class="container">
+          <!-- Portfolio Filter -->
+          <!-- <h2 hidden>Фильтр работ</h2> -->
+          <ul class="list filter__list">
+            <li class="filter__list-item"><button type="button" class="filter__list-option">Все</button></li>
+            <li class="filter__list-item"><button type="button" class="filter__list-option">Веб-сайты</button></li>
+            <li class="filter__list-item"><button type="button" class="filter__list-option">Приложения</button></li>
+            <li class="filter__list-item"><button type="button" class="filter__list-option">Дизайн</button></li>
+            <li class="filter__list-item"><button type="button" class="filter__list-option">Маркетинг</button></li>
+          </ul>
+                   
+          <!-- Portfolio Examples -->
+          <ul class="examples__list list">
+            <li class="examples__list-item">
+                  <a href="" class="link">
+                    <div class="examples__overlay">
+                     <img src="./img/works/technokryak.jpg" alt="Веб-страница сайта" width="370" height="294" />
+                     <p class="examples__list-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                      платформу для цифрового
+                      шпионажа и атак на защищённые сервера конкурентов.</p>
+                    </div>
+                <div class="examples-container">
+                  <h2 class="examples__list-name">Технокряк</h2>
+                  <p class="examples__list-text">Веб-сайт</p>
+                </div>                
+              </a>
+            </li>
+            <li class="examples__list-item">
+              <a href="" class="link">
+                <img src="./img/works/basketballposter.jpg" alt="Постер баскетбольного матча" width="370" height="294" />
+                <div class="examples-container">
+                 <h2 class="examples__list-name">Постер <span lang="en">New Orlean vs Golden Star</span> </h2>
+                  <p class="examples__list-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="examples__list-item">
+              <a href="" class="link">
+                <img src="./img/works/seafoodrestaurant.jpg" alt="Фото лого ресторана" width="370" height="294" />
+                <div class="examples-container">
+                 <h2 class="examples__list-name">Ресторан <span lang="en">Seafood</span> </h2>
+                 <p class="examples__list-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="examples__list-item">
+              <a href="" class="link">
+                <img src="./img/works/prime.jpg" alt="Наушники" width="370" height="294" />
+                <div class="examples-container">
+                  <h2 class="examples__list-name">Проект <span lang="en">Prime</span> </h2>
+                  <p class="examples__list-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="examples__list-item">
+              <a href="" class="link">
+                <img src="./img/works/boxes.jpg" alt="Коробки" width="370" height="294" />
+                <div class="examples-container">
+                 <h2 class="examples__list-name">Проект <span lang="en">Boxes</span> </h2>
+                 <p class="examples__list-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="examples__list-item">
+              <a href="" class="link">
+                <img src="./img/works/inspiration.jpg" alt="Веб-страница сайта" width="370" height="294" />
+                <div class="examples-container">
+                 <h2 lang="en" class="examples__list-name">Inspiration has no Borders</h2>
+                 <p class="examples__list-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="examples__list-item">
+              <a href="" class="link">
+                <img src="./img/works/limitededition.jpg" alt="Страница журнала" width="370" height="294" />
+                <div class="examples-container">
+                 <h2 class="examples__list-name">Издание <span lang="en">Limited Edition</span> </h2>
+                 <p class="examples__list-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="examples__list-item">
+              <a href="" class="link">
+                <img src="./img/works/lab.jpg" alt="Бирка с названием проекта" width="370" height="294" />
+                <div class="examples-container">
+                 <h2 class="examples__list-name">Проект <span lang="en">LAB</span> </h2>
+                 <p class="examples__list-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="examples__list-item">
+              <a href="" class="link">
+                <img src="./img/works/growingbusiness.jpg" alt="Ноутбук с написанием названия приложения на мониторе" width="370"
+                  height="294" />
+                <div class="examples-container">
+                 <h2 lang="en" class="examples__list-name">Growing Business</h2>
+                 <p class="examples__list-text">Приложение</p>
+                </div>                                
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Подвал страницы -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__contact">
+          <a href="./" aria-label="логотип компании" class="logo">Web<span class="footer-logo">Studio</span></a>
+          <address>
+            <p class="footer__contact-address">г. Киев, пр-т Леси Украинки, 26</p>
+            <a href="mailto:info@example.com" class="footer__contact-email">info@example.com</a>
+            <a href="tel:+380991111111" class="footer__contact-phone">+38 099 111 11 11</a>
+          </address>
+        </div>
+        <div class="footer__social-list">
+          <p class="footer__social-text">Присоединяйтесь</p>
+          <ul class="social-list list">
+            <li class="social-list__item">
+              <a href="" class="social-list__link link">
+                <svg class="social-list__svg">
+                  <use href="./img/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="" class="social-list__link link">
+                <svg class="social-list__svg">
+                  <use href="./img/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="" class="social-list__link link">
+                <svg class="social-list__svg">
+                  <use href="./img/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="" class="social-list__link link">
+                <svg class="social-list__svg">
+                  <use href="./img/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__subscribe">
+          <p class="footer__subscribe-title">Подпишитесь на рассылку</p>
+          <form action="#" class="footer__subscribe-form">
+            <input type="email" name="subscribe-input" id="subscribe-input" class="footer__subscribe-input" placeholder="E-mail">
+            <button type="button" class="footer__subscribe-btn button">Подписаться
+              <svg class="footer__subscribe-svg">
+                <use href="./img/icon-send.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

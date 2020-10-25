@@ -1,0 +1,45 @@
+.features {
+	&__list {
+		display: flex;
+	}
+
+	&__list-item {
+		width: 270px;
+
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+	}
+
+	&__list-title {
+		color: $title-text-color;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+		text-transform: uppercase;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+
+	&__list-svg {
+		display: flex;
+		margin-bottom: 30px;
+	}
+
+	&__list-svg-item {
+		width: 270px;
+		height: 120px;
+		padding: 25px 100px;
+		background: #f5f4fa;
+		border-radius: 4px;
+
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+	}
+
+	&__svg {
+		width: 70px;
+		height: 70px;
+	}
+}
