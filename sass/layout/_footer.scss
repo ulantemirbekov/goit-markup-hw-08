@@ -1,111 +1,141 @@
 .footer {
 	background-color: #2f303a;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	text-align: center;
 
 	& .logo {
-		display: inline-block;
 		margin-bottom: 20px;
 	}
 
 	&__contact-address {
-		color: $primary-white-color;
-		font-style: normal;
-		font-size: 14px;
-		line-height: 1.71;
-		margin-bottom: 9px;
+		margin-bottom: 8px;
 	}
 
 	&__contact-email {
-		margin-bottom: 9px;
+		color: rgba(255, 255, 255, 0.6);
+		margin-bottom: 8px;
 	}
 
+	&__contact-phone {
+		display: block;
+		color: rgba(255, 255, 255, 0.6);
+		margin-bottom: 60px;
+	}
+
+	&__contact-address,
 	&__contact-email,
 	&__contact-phone {
-		color: rgba(255, 255, 255, 0.6);
-		text-decoration: none;
 		font-style: normal;
-		font-size: 14px;
-		line-height: 1.71;
-		display: block;
-	}
-
-	&__contact {
-		margin-right: 70px;
-	}
-
-	&__social-list {
-		margin-right: 93px;
-	}
-
-	&__social-text {
-		margin-bottom: 20px;
-		font-weight: 700;
-		line-height: 1.14;
-		text-transform: uppercase;
-		color: $primary-white-color;
-	}
-
-	& .social-list__svg {
-		fill: $primary-white-color;
-	}
-
-	&__subscribe {
-		margin-left: auto;
-	}
-
-	&__subscribe-title {
-		margin-bottom: 20px;
-		font-weight: 700;
-		line-height: 1.14;
-		text-transform: uppercase;
-		color: $primary-white-color;
-	}
-
-	&__subscribe-input {
-		width: 358px;
-		height: 50px;
-		border: 1px solid rgba(255, 255, 255, 0.3);
-		border-radius: 4px;
-		margin-right: 12px;
-		background: transparent;
-		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-		outline: none;
-		padding-left: 16px;
-		font-size: 16px;
-		line-height: 1.25;
-		letter-spacing: 0.03em;
-		color: rgba(255, 255, 255, 0.6);
-		font-family: Roboto, sans-serif;
-
-		&::placeholder {
-			font-size: 16px;
-			line-height: 1.25;
-			color: rgba(255, 255, 255, 0.6);
-		}
-
-		&:not(:placeholder-shown) {
-			border-color: $accent-color;
-		}
-	}
-
-	&__subscribe-form {
-		display: flex;
-	}
-
-	&__subscribe-btn {
-		display: flex;
-		align-items: center;
-	}
-
-	&__subscribe-svg {
-		width: 24px;
-		height: 24px;
-		fill: currentColor;
-		margin-left: 16px;
 	}
 }
 
-.footer-logo {
-	color: #ffffff;
-}
+// .footer {
+// 	background-color: #2f303a;
+// 	padding-top: 60px;
+// 	padding-bottom: 60px;
+
+// 	& .logo {
+// 		display: inline-block;
+// 		margin-bottom: 20px;
+// 	}
+
+// 	&__contact-address {
+// 		color: $primary-white-color;
+// 		font-style: normal;
+// 		font-size: 14px;
+// 		line-height: 1.71;
+// 		margin-bottom: 9px;
+// 	}
+
+// 	&__contact-email {
+// 		margin-bottom: 9px;
+// 	}
+
+// 	&__contact-email,
+// 	&__contact-phone {
+// 		color: rgba(255, 255, 255, 0.6);
+// 		text-decoration: none;
+// 		font-style: normal;
+// 		font-size: 14px;
+// 		line-height: 1.71;
+// 		display: block;
+// 	}
+
+// 	&__contact {
+// 		margin-right: 70px;
+// 	}
+
+// 	&__social-list {
+// 		margin-right: 93px;
+// 	}
+
+// 	&__social-text {
+// 		margin-bottom: 20px;
+// 		font-weight: 700;
+// 		line-height: 1.14;
+// 		text-transform: uppercase;
+// 		color: $primary-white-color;
+// 	}
+
+// 	& .social-list__svg {
+// 		fill: $primary-white-color;
+// 	}
+
+// 	&__subscribe {
+// 		margin-left: auto;
+// 	}
+
+// 	&__subscribe-title {
+// 		margin-bottom: 20px;
+// 		font-weight: 700;
+// 		line-height: 1.14;
+// 		text-transform: uppercase;
+// 		color: $primary-white-color;
+// 	}
+
+// 	&__subscribe-input {
+// 		width: 358px;
+// 		height: 50px;
+// 		border: 1px solid rgba(255, 255, 255, 0.3);
+// 		border-radius: 4px;
+// 		margin-right: 12px;
+// 		background: transparent;
+// 		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+// 		outline: none;
+// 		padding-left: 16px;
+// 		font-size: 16px;
+// 		line-height: 1.25;
+// 		letter-spacing: 0.03em;
+// 		color: rgba(255, 255, 255, 0.6);
+// 		font-family: Roboto, sans-serif;
+
+// 		&::placeholder {
+// 			font-size: 16px;
+// 			line-height: 1.25;
+// 			color: rgba(255, 255, 255, 0.6);
+// 		}
+
+// 		&:not(:placeholder-shown) {
+// 			border-color: $accent-color;
+// 		}
+// 	}
+
+// 	&__subscribe-form {
+// 		display: flex;
+// 	}
+
+// 	&__subscribe-btn {
+// 		display: flex;
+// 		align-items: center;
+// 	}
+
+// 	&__subscribe-svg {
+// 		width: 24px;
+// 		height: 24px;
+// 		fill: currentColor;
+// 		margin-left: 16px;
+// 	}
+// }
+
+// .footer-logo {
+// 	color: #ffffff;
+// }

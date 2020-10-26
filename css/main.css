@@ -472,113 +472,30 @@ body {
 
 .footer {
   background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  text-align: center;
 }
 
 .footer .logo {
-  display: inline-block;
   margin-bottom: 20px;
 }
 
 .footer__contact-address {
-  color: #ffffff;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .footer__contact-email {
-  margin-bottom: 9px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 8px;
 }
 
-.footer__contact-email, .footer__contact-phone {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
+.footer__contact-phone {
   display: block;
-}
-
-.footer__contact {
-  margin-right: 70px;
-}
-
-.footer__social-list {
-  margin-right: 93px;
-}
-
-.footer__social-text {
-  margin-bottom: 20px;
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.footer .social-list__svg {
-  fill: #ffffff;
-}
-
-.footer__subscribe {
-  margin-left: auto;
-}
-
-.footer__subscribe-title {
-  margin-bottom: 20px;
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.footer__subscribe-input {
-  width: 358px;
-  height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  margin-right: 12px;
-  background: transparent;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  outline: none;
-  padding-left: 16px;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto, sans-serif;
+  margin-bottom: 60px;
 }
 
-.footer__subscribe-input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer__subscribe-input:not(:placeholder-shown) {
-  border-color: #2196f3;
-}
-
-.footer__subscribe-form {
-  display: flex;
-}
-
-.footer__subscribe-btn {
-  display: flex;
-  align-items: center;
-}
-
-.footer__subscribe-svg {
-  width: 24px;
-  height: 24px;
-  fill: currentColor;
-  margin-left: 16px;
-}
-
-.footer-logo {
-  color: #ffffff;
+.footer__contact-address, .footer__contact-email, .footer__contact-phone {
+  font-style: normal;
 }
 
 .portfolio-header {
