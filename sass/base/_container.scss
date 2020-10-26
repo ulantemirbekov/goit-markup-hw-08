@@ -3,6 +3,11 @@
 	padding-left: 15px;
 	margin: 0 auto;
 
+	@media screen and (max-width: 480px) {
+		width: 100%;
+		background-color: yellow;
+	}
+
 	@media screen and (min-width: 480px) {
 		width: 480px;
 		background-color: teal;
