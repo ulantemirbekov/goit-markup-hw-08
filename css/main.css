@@ -399,6 +399,16 @@ body {
   background-color: #f5f4fa;
 }
 
+.team__list-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+}
+
+.team__list-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 .team__list-img {
   width: 450px;
   height: 460px;
@@ -428,14 +438,36 @@ body {
 }
 
 .clients__list-item {
-  width: 210px;
-  height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 
+.clients__list-item:nth-child(2n + 1) {
+  margin-right: 30px;
+}
+
+.clients__list-item:not(:nth-last-child(-n + 2)) {
+  margin-bottom: 30px;
+}
+
+.clients__list-item__list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 90px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .clients__svg {
   max-height: 52px;
+  fill: #afb1b8;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients__list-link:hover .clients__svg,
+.clients__list-link:focus .clients__svg {
+  fill: #2196f3;
 }
 
 .footer {
