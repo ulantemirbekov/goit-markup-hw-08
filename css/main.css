@@ -46,21 +46,21 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 480 px) {
+@media screen and (min-width: 480px) {
   .container {
     width: 480px;
     background-color: teal;
   }
 }
 
-@media screen and (min-width: 768 px) {
+@media screen and (min-width: 768px) {
   .container {
     width: 768px;
     background-color: tomato;
   }
 }
 
-@media screen and (min-width: 1200 px) {
+@media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
   }
