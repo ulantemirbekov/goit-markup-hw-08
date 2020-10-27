@@ -49,21 +49,18 @@ body {
 @media screen and (max-width: 480px) {
   .container {
     width: 100%;
-    background-color: yellow;
   }
 }
 
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
-    background-color: teal;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    background-color: tomato;
   }
 }
 
@@ -362,10 +359,11 @@ body {
   background-color: #c4c4c4;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
 }
 
 .hero__title {
@@ -375,6 +373,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .features__svg {
