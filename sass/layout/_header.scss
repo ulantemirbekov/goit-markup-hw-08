@@ -1,7 +1,7 @@
-// .header {
-// 	padding-top: 32px;
-// 	padding-bottom: 32px;
-// }
+.header {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
 
 .logo {
 	color: $accent-color;
@@ -91,17 +91,18 @@
 // 		}
 // 	}
 
-// 	&__list-svg_envelope {
-// 		width: 16px;
-// 		height: 12px;
-// 		fill: currentColor;
-// 		margin-right: 10px;
-// 	}
+.contacts {
+	&__list-svg_envelope {
+		width: 16px;
+		height: 12px;
+		fill: currentColor;
+		margin-right: 10px;
+	}
 
-// 	&__list-svg_phone {
-// 		width: 10px;
-// 		height: 16px;
-// 		fill: currentColor;
-// 		margin-right: 10px;
-// 	}
-// }
+	&__list-svg_phone {
+		width: 10px;
+		height: 16px;
+		fill: currentColor;
+		margin-right: 10px;
+	}
+}

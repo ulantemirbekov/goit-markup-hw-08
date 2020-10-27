@@ -1,10 +1,10 @@
 .hero {
 	text-align: center;
-	height: 400px;
+	min-height: 400px;
 	background-color: #c4c4c4;
 	margin-left: auto;
 	margin-right: auto;
-	// background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero.jpg");
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero-mobile.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -21,6 +21,13 @@
 		margin-bottom: 30px;
 	}
 }
+
+// @media screen and (min-device-pixel-ratio: 2),
+// 		screen and (min-resolution: 192dpi),
+// 		screen and (min-resolution: 2dppx) {
+// 		.hero {
+// 			background-image: url("../img/hero-mobile@2x.jpg");
+// 		}
 
 // @media screen and (min-width: 480px) {
 // 	.hero {
