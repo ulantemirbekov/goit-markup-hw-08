@@ -397,8 +397,47 @@ body {
   height: 70px;
 }
 
+@media screen and (min-width: 768px) {
+  .features__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.features__list-item {
+  width: 100%;
+}
+
+.features__list-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .features__list-item {
+    width: calc((100% - 1 * 30px) / 2);
+  }
+  .features__list-item:not(:nth-child(even)) {
+    margin-right: 30px;
+  }
+  .features__list-item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features__list-item {
+    width: calc((100% - 3 * 30px) / 4);
+  }
+  .features__list-item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
 .features__container {
-  padding: 25px 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
