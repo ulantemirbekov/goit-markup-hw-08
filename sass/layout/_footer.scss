@@ -119,6 +119,10 @@
 		line-height: 1.143;
 		text-transform: uppercase;
 		color: $primary-white-color;
+
+		@media screen and (min-width: 1200px) {
+			text-align: left;
+		}
 	}
 
 	&__subscribe-input {
