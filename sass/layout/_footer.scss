@@ -4,6 +4,18 @@
 	padding-top: 60px;
 	padding-bottom: 60px;
 
+	& .container {
+		@media screen and (min-width: 768px) {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		@media screen and (min-width: 1200px) {
+			justify-content: space-between;
+			align-items: baseline;
+		}
+	}
+
 	& .logo {
 		display: inline-block;
 		margin: 0 auto;
@@ -11,7 +23,22 @@
 	}
 
 	&__contact {
-		margin-bottom: 60px;
+		width: 270px;
+
+		@media screen and (max-width: 767px) {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		@media screen and (max-width: 1199px) {
+			margin-bottom: 60px;
+			text-align: center;
+		}
+
+		@media screen and (min-width: 768px) and (max-width: 1199px) {
+			flex-basis: calc((100% - 30px) / 2);
+			margin-right: 30px;
+		}
 	}
 
 	&__contact-address {
@@ -37,7 +64,21 @@
 	}
 
 	&__social-list {
-		margin-bottom: 60px;
+		width: 270px;
+
+		@media screen and (max-width: 767px) {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		@media screen and (max-width: 1199px) {
+			margin-bottom: 60px;
+			text-align: center;
+		}
+
+		@media screen and (min-width: 768px) and (max-width: 1199px) {
+			flex-basis: calc((100% - 30px) / 2);
+		}
 	}
 
 	&__social-text {
@@ -52,6 +93,26 @@
 		fill: $primary-white-color;
 	}
 
+	&__subscribe {
+		@media screen and (max-width: 767px) {
+			width: 100%;
+		}
+
+		@media screen and (max-width: 1199px) {
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+
+		@media screen and (min-width: 480px) and (max-width: 1199px) {
+			width: 450px;
+		}
+
+		@media screen and (min-width: 1200px) {
+			width: 570px;
+		}
+	}
+
 	&__subscribe-title {
 		margin-bottom: 20px;
 		font-weight: 700;
@@ -61,20 +122,26 @@
 	}
 
 	&__subscribe-input {
-		width: 450px;
+		width: 100%;
 		height: 50px;
-		border: 1px solid rgba(255, 255, 255, 0.3);
-		border-radius: 4px;
-		margin-bottom: 20px;
-		padding-left: 16px;
-		background: transparent;
-		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-		outline: none;
+		padding: 15px 16px;
+		font-family: Roboto, sans-serif;
 		font-size: 16px;
 		line-height: 1.25;
 		letter-spacing: 0.03em;
 		color: rgba(255, 255, 255, 0.6);
-		font-family: Roboto, sans-serif;
+		background: transparent;
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+		border-radius: 4px;
+
+		@media screen and (max-width: 1199px) {
+			margin-bottom: 20px;
+		}
+
+		@media screen and (min-width: 1200px) {
+			margin-right: 12px;
+		}
 
 		&::placeholder {
 			font-size: 16px;
@@ -88,15 +155,23 @@
 	}
 
 	&__subscribe-form {
-		display: block;
-		justify-content: center;
-		align-items: center;
+		@media screen and (min-width: 1200px) {
+			display: flex;
+		}
 	}
 
 	&__subscribe-btn {
-		display: inline-block;
-		justify-content: center;
+		display: flex;
 		align-items: center;
+		padding: 10px 28px;
+		min-width: 200px;
+		min-height: 50px;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+		@media screen and (max-width: 1199px) {
+			margin-left: auto;
+			margin-right: auto;
+		}
 	}
 
 	&__subscribe-svg {
