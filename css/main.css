@@ -290,6 +290,13 @@ body {
   border-color: #2196f3;
 }
 
+.modal-form__input:hover, .modal-form__input:focus,
+.modal-form__message:hover,
+.modal-form__message:focus {
+  outline: none;
+  border: 1px solid #2196f3;
+}
+
 .modal-form__svg {
   position: absolute;
   top: 48%;
