@@ -113,7 +113,7 @@ body {
 }
 
 .social-list__item:not(:last-child) {
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .social-list__link {
