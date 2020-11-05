@@ -1027,7 +1027,7 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .clients__list-item {
     width: calc((100% - 2 * 30px) / 3);
   }
@@ -1042,7 +1042,6 @@ body {
 @media screen and (min-width: 1200px) {
   .clients__list-item {
     width: calc((100% - 5 * 30px) / 6);
-    padding-bottom: 30px;
   }
   .clients__list-item:not(:last-child) {
     margin-right: 30px;
