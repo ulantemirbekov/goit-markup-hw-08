@@ -1000,6 +1000,12 @@ body {
   line-height: 1.19;
 }
 
+@media screen and (max-width: 1200px) {
+  .team-container {
+    padding-bottom: 24px;
+  }
+}
+
 .clients__list {
   display: flex;
   flex-wrap: wrap;
